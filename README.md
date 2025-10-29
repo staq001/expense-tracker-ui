@@ -30,23 +30,9 @@ npm install
 
 This will install all dependencies listed in `package.json`, including Next.js, React, Tailwind CSS, Recharts, and Axios.
 
-### 3. Configure Environment Variables
-
-Create a `.env.local` file in the root directory of the project:
-
-\`\`\`bash
-cp .env.local.example .env.local
-\`\`\`
-
-Edit the `.env.local` file and update the API URL to match your Express.js backend:
-
-\`\`\`
-NEXT_PUBLIC_API_URL=http://localhost:3000
-\`\`\`
-
 **Important:** Make sure your Express.js backend is running on `localhost:3000` before starting the frontend.
 
-### 4. Start the Development Server
+### 3. Start the Development Server
 
 Run the development server:
 
@@ -118,14 +104,3 @@ To create a production build:
 npm run build
 npm start
 \`\`\`
-
-## Technologies Used
-
-- **Next.js 16** - React framework
-- **React 19** - UI library
-- **TypeScript** - Type safety
-- **Tailwind CSS** - Styling
-- **Recharts** - Data visualization
-- **Axios** - HTTP client
-- **React Hook Form** - Form management
-- **Zod** - Schema validation
