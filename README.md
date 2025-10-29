@@ -1,6 +1,6 @@
 # Expense Tracker Frontend
 
-A modern React/Next.js frontend for managing your expenses, built to connect with an Express.js backend API.
+A modern React/Next.js frontend for managing your expenses, built to connect with a backend API.
 
 ## Prerequisites
 
@@ -15,30 +15,31 @@ Before you begin, make sure you have the following installed on your machine:
 
 If you have the project as a ZIP file, extract it to your desired location. If using Git:
 
-\`\`\`bash
+```bash
 git clone github.com/staq001/expense-tracker-ui
 cd expense-tracker
-\`\`\`
+```
 
 ### 2. Install Dependencies
 
 Navigate to the project directory and install all required packages:
 
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+
+```
 
 This will install all dependencies listed in `package.json`, including Next.js, React, Tailwind CSS, Recharts, and Axios.
 
-**Important:** Make sure your Express.js backend is running on `localhost:3000` before starting the frontend.
+**Important:** Make sure your backend API is running on `localhost:3000` before starting the frontend.
 
 ### 3. Start the Development Server
 
 Run the development server:
 
-\`\`\`bash
+```bash
 npm run dev -- -p 3001
-\`\`\`
+```
 
 The application will be available at `http://localhost:3001` in your browser.
 
@@ -54,7 +55,7 @@ The application will be available at `http://localhost:3001` in your browser.
 
 ## API Endpoints Used
 
-The frontend connects to the following Express.js API endpoints:
+The frontend connects to the following API endpoints:
 
 ### User Routes
 
@@ -77,18 +78,18 @@ The frontend connects to the following Express.js API endpoints:
 
 ### Cannot Connect to Backend
 
-- Ensure your Express.js backend is running on `localhost:3000`
+- Ensure your backend is running on `localhost:3000`
 - Check that the `NEXT_PUBLIC_API_URL` in `.env.local` matches your backend URL
 - Check browser console for CORS errors
 
 ### Build Errors
 
 If you encounter build errors, try:
-\`\`\`bash
+```bash
 rm -rf .next node_modules
 npm install
 npm run dev
-\`\`\`
+```
 
 ### Authentication Issues
 
@@ -100,7 +101,8 @@ npm run dev
 
 To create a production build:
 
-\`\`\`bash
+```bash
 npm run build
 npm start
-\`\`\`
+```
+
