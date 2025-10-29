@@ -6,7 +6,7 @@ A modern React/Next.js frontend for managing your expenses, built to connect wit
 
 Before you begin, make sure you have the following installed on your machine:
 
-- **Node.js** (v18 or higher) - [Download here](https://nodejs.org/)
+- **Node.js**
 - **npm** or **yarn** - Comes with Node.js
 
 ## Setup Instructions
@@ -105,4 +105,5 @@ To create a production build:
 npm run build
 npm start
 ```
+
 
