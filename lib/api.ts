@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "https://expense-tracker-cohu.onrender.com";
+const API_BASE_URL = process.env.API_URL as string;
 
 const api = axios.create({
   baseURL: API_BASE_URL,
